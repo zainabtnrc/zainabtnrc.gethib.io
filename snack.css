@@ -1,0 +1,68 @@
+body{height: 3000px;}
+
+.header .nav #s{float: left;font-size: 24px;color: whitesmoke}
+.header .nav  p{float: left;;font-size: 24px;color: whitesmoke }
+.header .nav  .PP{margin-left: 100PX;text-align: center;}
+.header .sli{overflow:hidden;background-color: dodgerblue;width:100%;}
+.header .sli .pic img{height: 600px;width: 70%;float: left;font-size: 30px;margin: auto 0;}
+.header .sli .aside{background-color:#3D2B17;width: 30%;float:right;text-align: center;height: 600px;}
+.header .sli .aside  h3 a{color:wheat ;margin-top: 100px;text-align: center;text-decoration: none;}
+.header .sli .aside  h3 a:hover{color:rgb(184, 39, 123) }
+/*.header .sli .aside input[type="button"] {text-align: center;background-color:#7bc043;width: 110px;height: 50px; }*/
+.header .sli .aside #social {float: left;list-style: none}
+.header .sli .aside ul li{float: left;padding-right:30px;margin-left: 70px}
+.header .sli .aside h2{color:wheat;font-size:24px;}
+/*.cont{width:1170px;margin:0 auto;}*/
+.header .nav {background-color:#EF882C;color: gainsboro;height: 80px; }
+.header .nav ul{float: right;list-style: none}
+.header .nav ul li{float: left;padding-right:30px }
+.header .sli h2{font-size: 24px;color: darkseagreen}
+.header .nav ul li a{color:white;font-size: 26px;text-decoration:none; }
+.header .nav ul li a:hover{color:green}
+
+.contex{width:100%;background-color: #3D2B17;;overflow: hidden }
+.contex .pp{
+    width: 25%;
+    float: left
+}
+/*.contex .pp img{ width: 98%}*/
+.contex .pp h2{color: white;
+text-align: center;
+}
+
+.contex .pp details ul li{list-style: none;}
+.contex  .pp details ul li a{text-decoration: none;background-color: aliceblue ;padding: 2px;
+   
+}
+.contex  .pp  details ul li  .ww{ border: 1px solid green;
+    width: 45px;
+    text-align: justify; display:inline-block;background-color:rgb(139, 226, 26) }
+
+
+
+/*snacks*/
+.section .seca{width: 50%;
+    float: left;
+    text-align: center}
+
+    .section .secb{width: 50%;
+        float: left;
+        text-align: center}
+
+        .section .secc{width: 50%;
+            float: left;
+            text-align: center}
+
+            .section .secd{width: 50%;
+                float: left;
+                text-align: center}
+    
+
+
+
+.footer{background-color: #EF882C;width:100%;height: 100px; }
+.footer ul{float: right;list-style: none}
+.footer ul li{float: left;padding-right:30px;margin-left: 45px}
+.footer ul li p{color:whitesmoke;font-size:24px;
+    
+}

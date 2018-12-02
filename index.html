@@ -1,25 +1,202 @@
-<html lang="en">
+﻿<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>index</title>
+    <link rel="stylesheet" href="rest style.css">
+
+
 </head>
 
-<body>  
-    <div class="container">
-    <div class="row">
-            <div class="col-xl-3 col-lg-6 col-md-12">t1</div>
-            <div class="col-xl-3 col-lg-6 col-md-12">t2</div>
-            <div class="col-xl-3 col-lg-6 col-md-12">t3</div>
-            <div class="col-xl-3 col-lg-6 col-md-12">t4</div>
+<body>
+    <div class="header">
+        <div class="nav">
+
+
+
+            <p id="s"><img src="rice.png" width="30px" height="30px"></p>
+
+            <p class="PP"> اسم المطعم</p>
+            <ul>
+                <li><a href="index.html" target="_blanck">الرئيسة</a></li>
+                <li><a href="meals.html" target="_blanck">وجبات اساسية</a></li>
+                <li><a href="snack.html" target="_blanck">مقبلات</a></li>
+                <li><a href="drink.html" target="_blanck">مشروبات</a></li>
+                <li><a href="sweet.html" target="_blanck">حلويات</a></li>
+            </ul>
 
         </div>
+
+        <div class="sli">
+
+            <div class="pic">
+                <img class="a" src="12.jpg">
+                <img class="a" src="14.jpg">
+                <img class="a" src="10.jpg">
+
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("a");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+
+            <div class="aside">
+                <h2>:معلومات الاتصال</h2><br>
+                <h2>07707777777:رقم الموبايل</h2><br>
+                <h2>الايميل@gmail.com</h2><br>
+                <h2>عنوان المطعم</h2><br>
+                <ul id="social">
+                    <li> <a href="http//:www.facebook.com">
+                            <img src="f.png" width="30px" height="30px">
+                        </a></li>
+
+                    <li> <a href="http//:www.instagram.com">
+                            <img src="in.png" width="30px" height="30px">
+                        </a></li>
+                    <li> <a href="http//:www.youtube.com">
+                            <img src="you.png" width="30px" height="30px">
+                        </a></li>
+
+
+                </ul>
+
+
+
+
+                <h3 style="color:azure">
+                    <a href="form.html" target="_blanck"> طلب وجبة دليفري</a>
+                </h3>
+            </div>
+        </div>
+
+
+
+
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+
+    <div class="contex">
+        <div class="pp">
+            <details>
+                <summary><img src="5.jpg" width="300px" height="300px">
+                    <h2>اصناف المشويات</h2>
+                </summary>
+                <p>مشويات</p>
+
+                <ul>
+                    <li><a href="#" class="ww">كباب</a></li>
+                    <li><a href="#" class="ww">كص</a></li>
+                    <li><a href="#" class="ww">شاورما دجاج</a></li>
+                    <li><a href="#" class="ww">لحم</a></li>
+
+                </ul>
+            </details>
+
+
+        </div>
+
+        <div class="pp">
+            <details>
+                <summary><img src="3.jpg" width="300px" height="300px">
+                    <h2> اصناف الحلويات</h2>
+                </summary>
+                <p>حلويات</p>
+                <ul>
+                    <li><a href="#" class="ww">بقلاوة</a></li>
+                    <li><a href="#" class="ww">كنافة</a></li>
+                    <li><a href="#" class="ww">حلاوة الجبن </a></li>
+                    <li><a href="#" class="ww">نوتيلا</a></li>
+
+                </ul>
+            </details>
+
+        </div>
+
+        <div class="pp">
+            <details>
+                <summary><img src="6.jpg" width="300px" height="300px">
+                    <h2> اصناف المشروبات</h2>
+                </summary>
+                <p>مشروبات</p>
+                <ul>
+                    <li><a href="#" class="ww">شاي</a></li>
+                    <li><a href="#" class="ww">قهوة</a></li>
+                    <li><a href="#" class="ww">كوكتيل </a></li>
+                    <li><a href="#" class="ww">مشروب غازية</a></li>
+
+                </ul>
+            </details>
+
+        </div>
+
+        <div class="pp">
+            <details>
+                <summary><img src="14.jpg" width="300px" height="300px">
+                    <h2>اصناف المقبلات </h2>
+                </summary>
+                <p> المقبلات </p>
+
+                <ul>
+                    <li><a href="#" class="ww">سلطة</a></li>
+                    <li><a href="#" class="ww">حمص بطحينة</a></li>
+                    <li><a href="#" class="ww">سلطة الباذنجان </a></li>
+                    <li><a href="#" class="ww">تبولة </a></li>
+
+                </ul>
+            </details>
+        </div>
+    </div>
+    <div >
+        <h1 style="background-color:#EF882C;color:wheat;text-align: center;margin: 0%">خارطة المطعم</h1>
+
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(36.355223, 43.172182),
+                    zoom: 5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyKNApR8xqoIF66TI-ZBxE6Y0ZicTTWAU&callback=myMap"></script>
+
+
+    </div>
+
+
+
+    <div class="footer">
+        <ul>
+            <li>
+                <p>ايميل</p>
+            </li>
+            <li>
+                <p>حقوق النشر</p>
+            </li>
+            <li>
+                <p>2018</p>
+            </li>
+        </ul>
+
+    </div>
+
 </body>
+
 </html>
